@@ -4,110 +4,70 @@
     "href": "units/unit2.html",
     "title": "Unit 2: Next",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nThis is an example of using an ipynb file as source rather than qmd. It follows instructions from https://github.com/DS-100/course-notes/README.md.\nLink to the data.",
-    "crumbs": [
-      "Units",
-      "Unit 2: Next"
-    ]
+    "text": "[UNDER CONSTRUCTION]\nThis is an example of using an ipynb file as source rather than qmd. It follows instructions from https://github.com/DS-100/course-notes/README.md.\nLink to the data."
   },
   {
     "objectID": "units/unit2.html#latex",
     "href": "units/unit2.html#latex",
     "title": "Unit 2: Next",
     "section": "\\(\\LaTeX\\)",
-    "text": "\\(\\LaTeX\\)\nHere is some \\(\\LaTeX\\). \\[\n\\theta = 7\n\\]",
-    "crumbs": [
-      "Units",
-      "Unit 2: Next"
-    ]
+    "text": "\\(\\LaTeX\\)\nHere is some \\(\\LaTeX\\). \\[\n\\theta = 7\n\\]"
   },
   {
     "objectID": "units/unit2.html#evaluated-python-code",
     "href": "units/unit2.html#evaluated-python-code",
     "title": "Unit 2: Next",
     "section": "Evaluated Python code",
-    "text": "Evaluated Python code\nNote that to get code output shown, the underlying notebook must have executed the code.\n\n\nCode\na=7\nprint(a)\n\n\n7",
-    "crumbs": [
-      "Units",
-      "Unit 2: Next"
-    ]
+    "text": "Evaluated Python code\nNote that to get code output shown, the underlying notebook must have executed the code.\n\n\nCode\na=7\nprint(a)\n\n\n7"
   },
   {
     "objectID": "units/unit2.html#callout",
     "href": "units/unit2.html#callout",
     "title": "Unit 2: Next",
     "section": "Callout",
-    "text": "Callout\n\n\n\n\n\n\nTipTip with Title\n\n\n\nThis is an example of a callout with a title.",
-    "crumbs": [
-      "Units",
-      "Unit 2: Next"
-    ]
+    "text": "Callout\n\n\n\n\n\n\nTipTip with Title\n\n\n\nThis is an example of a callout with a title."
   },
   {
     "objectID": "units/unit1.html",
     "href": "units/unit1.html",
     "title": "Unit 1: Intro",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nThis is an example of using qmd as the source document.",
-    "crumbs": [
-      "Units",
-      "Unit 1: Intro"
-    ]
+    "text": "[UNDER CONSTRUCTION]\nThis is an example of using qmd as the source document."
   },
   {
     "objectID": "units/unit1.html#evaluated-python-code-chunk-with-a-plot",
     "href": "units/unit1.html#evaluated-python-code-chunk-with-a-plot",
     "title": "Unit 1: Intro",
     "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\nnp.float64(-0.009137167872081124)",
-    "crumbs": [
-      "Units",
-      "Unit 1: Intro"
-    ]
+    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\nnp.float64(-0.10650472403910567)"
   },
   {
     "objectID": "units/unit1.html#latex",
     "href": "units/unit1.html#latex",
     "title": "Unit 1: Intro",
     "section": "\\(\\LaTeX\\)",
-    "text": "\\(\\LaTeX\\)\n\\[\n\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n\\]",
-    "crumbs": [
-      "Units",
-      "Unit 1: Intro"
-    ]
+    "text": "\\(\\LaTeX\\)\n\\[\n\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n\\]"
   },
   {
     "objectID": "units/unit1.html#styled-div-via-direct-html",
     "href": "units/unit1.html#styled-div-via-direct-html",
     "title": "Unit 1: Intro",
     "section": "Styled div via direct html",
-    "text": "Styled div via direct html\n\nThis content can be styled via the border class.",
-    "crumbs": [
-      "Units",
-      "Unit 1: Intro"
-    ]
+    "text": "Styled div via direct html\n\nThis content can be styled via the border class."
   },
   {
     "objectID": "units/unit1.html#a-callout",
     "href": "units/unit1.html#a-callout",
     "title": "Unit 1: Intro",
     "section": "A callout",
-    "text": "A callout\n\n\n\n\n\n\nTipTip with Title\n\n\n\nThis is an example of a callout with a title.",
-    "crumbs": [
-      "Units",
-      "Unit 1: Intro"
-    ]
+    "text": "A callout\n\n\n\n\n\n\nTipTip with Title\n\n\n\nThis is an example of a callout with a title."
   },
   {
     "objectID": "units/unit1.html#tabset",
     "href": "units/unit1.html#tabset",
     "title": "Unit 1: Intro",
     "section": "Tabset",
-    "text": "Tabset\n\nRPython\n\n\nThis code is not executed.\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\nfizz_buzz(3)\n\n\nThis code is executed.\n\n\nCode\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)\n    \nfizz_buzz(3)\n\n\nFizz",
-    "crumbs": [
-      "Units",
-      "Unit 1: Intro"
-    ]
+    "text": "Tabset\n\nRPython\n\n\nThis code is not executed.\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\nfizz_buzz(3)\n\n\nThis code is executed.\n\n\nCode\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)\n    \nfizz_buzz(3)\n\n\nFizz"
   },
   {
     "objectID": "assignments.html",
@@ -178,30 +138,21 @@
     "href": "data.html",
     "title": "Data",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nWe’ll use data from several real world situations in class.",
-    "crumbs": [
-      "Datasets"
-    ]
+    "text": "[UNDER CONSTRUCTION]\nWe’ll use data from several real world situations in class."
   },
   {
     "objectID": "data.html#data-1",
     "href": "data.html#data-1",
     "title": "Data",
     "section": "Data 1",
-    "text": "Data 1",
-    "crumbs": [
-      "Datasets"
-    ]
+    "text": "Data 1"
   },
   {
     "objectID": "data.html#data-2",
     "href": "data.html#data-2",
     "title": "Data",
     "section": "Data 2",
-    "text": "Data 2",
-    "crumbs": [
-      "Datasets"
-    ]
+    "text": "Data 2"
   },
   {
     "objectID": "homeworks.html",
@@ -215,7 +166,7 @@
     "href": "index.html",
     "title": "Statistics 215b: Statistical Models: Theory and Application",
     "section": "",
-    "text": "Gradescope\n\nNo matching items\n\n\n\n\n\n\n\nNoteReadings week 1\n\n\n\nThe reading for the first lecture is Chapter 1 of the textbook A first course in causal inference by Peng Ding. A preprint of the textbook is available on arXiv. The book is available in print here. Add promotion code JSM24 for additional discount (good thru end of September).\n\n\n\n\n\n\n\n\nNoteReadings week 2\n\n\n\nThe reading for the second lecture is Chapter 2 of A first course in causal inference.\nThe readings for the third lecture are\n\nSection 2.1 of the textbook Causal inference: what if by James M. Robins and Miguel A. Hernán. Available online.\nChapter 3 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteReadings week 3\n\n\n\nThe reading for the fourth lecture is Chapters 4-6 of A first course in causal inference.\nThe readings for the fifth lecture is Chapters 7-9 of A first course in causal inference.\n\n\n\n\n\n\n\n\nNoteReadings week 4\n\n\n\nThe reading for the 9/17 lecture is\n\nChapter 3 of Causal inference: what if.\nChapter 10 of A first course in causal inference.\n\nThe readings for the 9/19 lecture are\n\nSection 2.4 of Causal inference: what if.\nChapters 11-12 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteHomework 2 posted\n\n\n\nHomework 2 for 156 is posted in the Homeworks tab.\n\n\n\n\n\n\n\n\nNoteHomework 1 and Reading assignment 1 grades released\n\n\n\nYou can see your grade on Gradescope. Note that starting with homework 2, we will deduct points for failure to properly assign your gradescope pages to the corresponding problem AND for failure to submit code for coding problems.\n\n\n\n\n\n\n\n\nNoteReadings week 5\n\n\n\nThe readings for the 9/24 lecture are\n\nChapter 12 of A first course in causal inference.\nChapter 13 of Causal inference: what if.\n\nThe reading for the 9/26 lecture is\n\nChapter 13 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteReadings week 6\n\n\n\nThe readings for the 10/01 lecture are\n\nChapter 4 of Causal inference: what if.\nChapter 15 of A first course in causal inference.\n\nThe reading for the 10/03 lecture is\n\nChapters 6 and 7 of Causal inference: what if.\n\n\n\n\n\n\n\n\n\nNoteHomework 3 posted\n\n\n\nHomework 3 for 156 is posted in the Homeworks tab.\n\n\n\n\n\n\n\n\nNoteReadings week 7\n\n\n\nThe readings for the 10/08 lecture are\n\nChapter 16 of Causal inference: what if.\nChapter 16 of A first course in causal inference.\n\nThe reading for the 10/10 lecture is\n\nChapters 21-22 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteReadings week 8\n\n\n\nThere are no readings for the 10/15 lecture. Instead of a usual lecture, we will use this time for you to work on your group projects.\nThe reading for the 10/17 lecture is\n\nChapters 23 and 25 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteHomework 4 posted\n\n\n\nHomework 4 for 156 is posted in the Homeworks tab.\n\n\n\n\n\n\n\n\nNoteGuidelines posted for 256 Paper Presentation Videos\n\n\n\nGuidelines for the 256 presentations on academic papers are available in the Video presentations tab.\n\n\n\n\n\n\n\n\nNoteReadings week 9\n\n\n\nThe reading for the 10/22 lecture is\n\nChapter 20 of A first course in causal inference.\n\nThe reading for the 10/24 lecture is\n\nChapter 24 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteReadings week 10\n\n\n\nThere is no lecture on 10/29 as there is an in-class midterm.\nThe reading for the 10/31 lecture is\n\nChapters 17-18 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteReadings week 11\n\n\n\nThe reading for the 11/5 lecture is\n\nChapter 19 of A first course in causal inference.\n\nThe reading for the 11/7 lecture is\n\nChapter 26 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteHomework 5 posted\n\n\n\nHomework 5 for 156 is posted in the Homeworks tab.\n\n\n\n\n\n\n\n\nNoteReadings week 12\n\n\n\nThe reading for the 11/12 lecture is\n\nChapter 23 of Causal inference: what if.\nChapter 27 of A first course in causal inference.\n\nThere is no lecture on 11/14 due to BSTARS. Check out the event starting at 1 pm at Memorial Stadiu,/\n\n\n\n\n\n\n\n\nNoteHomework 6 posted\n\n\n\nHomework 6 for 156 is posted in the Homeworks tab.\n\n\n\n\n\n\n\n\nNoteReadings week 13\n\n\n\nThe reading for the 11/19 lecture is\n\nChapters 28 of A first course in causal inference.\n\nThe reading for the 11/21 lecture is\n\nChapters 29 of A first course in causal inference.\n\n\n\n\n\n\n\n\n\nNoteProject presentations schedule\n\n\n\n256 Project Presentations will occur in class on 12/3.\n156 Project Presentations will occur in class on 12/5.",
+    "text": "Gradescope\n\n  Ed Discussion\n\nNo matching items\n\n\n\n\n\n\n\nNoteWelcome To 215B\n\n\n\nWelcome to 215B! Some quick setup instructions:\n\nFor Ed: sign up here (must use your Berkeley email)\nFor Gradescope: use the course code X8GP76 to join the class on Gradescope\n\nAlso refer to the syllabus page for the full syllabus.",
     "crumbs": [
       "Home / Schedule"
     ]
@@ -232,7 +183,7 @@
     "href": "staff.html",
     "title": "Staff",
     "section": "",
-    "text": "Office hours are subject to change.\n\n\n\nInstructor: Amanda Coston acoston@berkeley.edu Office hours:  • Thursday 4:00-5:00 PM, Evans 427 \n\n\nGSI: Mingrui Zhang mingrui_zhang@berkeley.edu Office hours: TBD • Mondays: 2:00-4:00 PM, Evans 428  • Tuesdays: 9:00-11:00 AM, Evans 428",
+    "text": "Office hours are subject to change.\n\n\n\nInstructor: Amanda Coston acoston@berkeley.edu Office hours: TBD • , \n\n\nGSI: Nicolas Sanchez nicolas_sanchez_ep@berkeley.edu Office hours:  • Tuesday: 3:30-4:30 PM, Evans 428  • Tuesdays: 1:00-2:00 PM, Evans 428",
     "crumbs": [
       "Staff"
     ]
@@ -242,54 +193,35 @@
     "href": "calendar.html",
     "title": "Calendar",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nWe can just embed the iframe html:",
-    "crumbs": [
-      "Calendar"
-    ]
+    "text": "[UNDER CONSTRUCTION]\nWe can just embed the iframe html:"
   },
   {
     "objectID": "units/unit3.html",
     "href": "units/unit3.html",
     "title": "Unit 3: More",
     "section": "",
-    "text": "[UNDER CONSTRUCTION]\nThis is an example of using qmd as the source document with pdf as one target. I’ve taken out the qmd stuff that doesn’t seem to render to pdf.",
-    "crumbs": [
-      "Units",
-      "Unit 3: More"
-    ]
+    "text": "[UNDER CONSTRUCTION]\nThis is an example of using qmd as the source document with pdf as one target. I’ve taken out the qmd stuff that doesn’t seem to render to pdf."
   },
   {
     "objectID": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
     "href": "units/unit3.html#evaluated-python-code-chunk-with-a-plot",
     "title": "Unit 3: More",
     "section": "Evaluated Python code chunk, with a plot",
-    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\nnp.float64(-0.1581401185115068)",
-    "crumbs": [
-      "Units",
-      "Unit 3: More"
-    ]
+    "text": "Evaluated Python code chunk, with a plot\n\n\nCode\nimport numpy as np\nx = np.random.normal(size=100)\nimport matplotlib.pyplot as plt\nplt.hist(x)\nplt.show()\nnp.mean(x)\n\n\n\n\n\n\n\n\n\nnp.float64(-0.02755117375244861)"
   },
   {
     "objectID": "units/unit3.html#latex",
     "href": "units/unit3.html#latex",
     "title": "Unit 3: More",
     "section": "LaTeX",
-    "text": "LaTeX\n\\[\n\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n\\]",
-    "crumbs": [
-      "Units",
-      "Unit 3: More"
-    ]
+    "text": "LaTeX\n\\[\n\\theta = \\int_0^\\infty f(x,\\theta)d\\theta\n\\]"
   },
   {
     "objectID": "units/unit3.html#latex-macro",
     "href": "units/unit3.html#latex-macro",
     "title": "Unit 3: More",
     "section": "LaTeX macro",
-    "text": "LaTeX macro\n\nWarning: having include-before-body in the yaml header of this file, as seemingly needed to enable macros, causes extra space at top of page.\n\n\\[\nA = X \\trans Y\n\\]",
-    "crumbs": [
-      "Units",
-      "Unit 3: More"
-    ]
+    "text": "LaTeX macro\n\nWarning: having include-before-body in the yaml header of this file, as seemingly needed to enable macros, causes extra space at top of page.\n\n\\[\nA = X \\trans Y\n\\]"
   },
   {
     "objectID": "units/macros.html",
